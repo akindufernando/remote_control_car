@@ -40,8 +40,8 @@ The analogWrite() function controls the motor speed by adjusting the PWM signal 
 Controlling the Car:
 You can use a Bluetooth terminal app on your smartphone to send commands to the car:
 
-'F' for forward
-'B' for backward
-'L' for left
-'R' for right
-'S' for stop
+'1' for forward
+'2' for backward
+'3' for left
+'4' for right
+'5' for stop
