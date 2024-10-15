@@ -75,19 +75,19 @@ void loop() {
   if (Serial.available() > 0) {
     char command = Serial.read();
     
-    if (command == 'F') { // Forward command
+    if (command == '1') { // Forward command
       moveForward();
     } 
-    else if (command == 'B') { // Backward command
+    else if (command == '2') { // Backward command
       moveBackward();
     } 
-    else if (command == 'L') { // Left turn command
+    else if (command == '3') { // Left turn command
       turnLeft();
     } 
-    else if (command == 'R') { // Right turn command
+    else if (command == '4') { // Right turn command
       turnRight();
     } 
-    else if (command == 'S') { // Stop command
+    else if (command == '5') { // Stop command
       stopCar();
     } 
     else {
